@@ -42,4 +42,14 @@ console.log(sobrenome);
 
 // atividade
 // imprima no console a seguinte mensagem:
-// O nome do meu gato é (variavel), ele tem (variavel) de idade, seu peso é: (variavel).
+// O nome do meu gato é (variavel), ele tem (variavel) de idade, seu peso é: (variavel)kg.
+
+
+
+// Nunca utilize var para criar variaveis!!!
+// o var apresenta um problema de consistencia no código,
+// com o var voce pode declarar variaaveis com o mesmo nome varias vezes.
+
+var TESTE = 10;
+var TESTE = "estou duplicado";
+console.log(TESTE);
