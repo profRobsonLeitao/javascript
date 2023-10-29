@@ -12,7 +12,7 @@ console.log("Posso colocar", "várias informações", 2024);
 
 // ----------------------------------------------------------------------------
 
-// exercício
+// atividade
 
 // Imprima no console a seguinte mensagem: 
 // Meu nome é "NOME". Estou estudando Javascript às 18 horas da noite.
