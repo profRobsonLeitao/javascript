@@ -1,5 +1,5 @@
 function criaCalculadora() {
-  return {
+    return {
       display: document.querySelector('.display'),
 
       iniciar() {
@@ -37,21 +37,21 @@ function criaCalculadora() {
       },
 
       calcular() {
-          let conta = this.display.value;
-
-          try {
-              conta = eval(conta);
-              if(!conta) {
-                  alert('Conta inválida');
-                  return;
-              }
-          this.display.value = String(conta);
-          } catch(e) {
-              alert('Conta inválida');
-              return;
-          }
-      }
-  }
+            let conta = this.display.value;
+            try {
+            // esta funcao eval é perigosa pois executa qualquer js informado.
+                conta = eval(conta);
+                if(!conta) {
+                    alert('Conta inválida');
+                    return;
+                }
+                this.display.value = String(conta);
+            } catch(e) {
+                alert('Conta inválida');
+                return;
+            }
+        }
+    }
 }
 
 const minhaCalc = criaCalculadora();

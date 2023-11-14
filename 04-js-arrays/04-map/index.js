@@ -1,4 +1,4 @@
-// Aula
+// Aula 04 - MAP
 // serve para mapear todo o array e fazer algo com cada valor
 // dentro dele. O map altera os valores iniciais do array.
 

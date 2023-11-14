@@ -1,4 +1,4 @@
-// Aula - Combinando os filtros para arrays
+// Aula 06 - Combinando os filtros para arrays
 // Atividade:
 // retorne a soma do dobro de todos os pares
 // 1º: filtrar pares

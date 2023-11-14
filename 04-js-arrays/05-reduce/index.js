@@ -1,4 +1,4 @@
-// Aula
+// Aula 05 - REDUCE
 // serve para quando queremos reduzir um array de acordo com algum criterio
 // Por exemplo: retorne um array com a soma dos numeros.
 

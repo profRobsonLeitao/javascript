@@ -39,6 +39,11 @@ console.log(frutas);
 frutas.shift()
 console.log(frutas);
 
+// quebrando uma string e transformando num array
+const nome = 'Ricardo Almeida Souza';
+const arrayNomes = nome.split(' ');
+console.log(arrayNomes)
+
 // atividade - vai precisar do conteudo de strings
 // imprima no console o array 'nomes' que voce criou,
 // sem os 2 ultimos nomes. Voce nao pode alterar o array.
