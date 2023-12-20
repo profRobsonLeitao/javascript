@@ -1,4 +1,4 @@
-// Aula 02 - Prototypes
+// Aula 04 - Prototypes
 // os prototypes sao um atributo que esta disponivel em todos os objetos
 // podemos entao, criar metodos que serviram para todas as vezes que o 
 // objeto for instanciado, fazendo com que nosso codigo seja mais performatico.
